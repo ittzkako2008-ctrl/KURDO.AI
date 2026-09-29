@@ -1,0 +1,14 @@
+{
+  "name": "kurdo-ai",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=22.5" },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@libsql/client": "^0.15.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
+}
